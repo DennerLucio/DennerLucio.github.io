@@ -7,9 +7,12 @@ body{
 .cabecalho{
     width: 100%;
     height: 400px;
+   
     background-color: red;
     display: flex;
-   
+    position: relative;
+    align-items: center;
+    justify-content: center;
 
 }
 .face{
@@ -33,7 +36,7 @@ body{
 #front{
     
     
-    background-color: rgb(252, 252, 252);
+    background-color: rgba(252, 252, 252, 0.856);
     transform: rotateY(180deg);
 }
 
@@ -45,9 +48,18 @@ body{
 }
 #card{
     margin-left: 150px;
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
     transition: all .7s;
+}
+#barra{
+    display: flex;
+    position: relative;
+    width: 1260px;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 150px 150px 150px 150px;
+    align-items: top;
+    justify-content: left;
 }

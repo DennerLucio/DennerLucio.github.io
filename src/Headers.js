@@ -8,6 +8,8 @@ function Headers(props) {
     <div>
 
       <div class="cabecalho">
+        <div class="" id="barra">
+
         
           <div class="flip" id="card">
               <div id="front" class="face">
@@ -18,7 +20,7 @@ function Headers(props) {
               </div>
           </div>
 
-        
+          </div>
         
 
       </div>
