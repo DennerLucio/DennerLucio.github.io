@@ -1,5 +1,8 @@
 body{
-    background-color: blue;
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   
 }
 
@@ -12,7 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(45deg, #009DAE, #71DFE7, #C2FFF9, #FFE652);
-    background-size: 300% 300%;
+    background-size: 250% 250%;
     animation: colors ease 10s infinite;
 
 }
@@ -51,7 +54,7 @@ body{
 #front{
     
     
-    background-color: rgba(252, 252, 252, 0.856);
+    background-color: rgb(252, 252, 252);
     transform: rotateY(180deg);
 }
 
@@ -62,7 +65,7 @@ body{
     background-color: rgb(88, 245, 245);
 }
 #card{
-    margin-left: 150px;
+    margin-left: 149px;
     display: flex;
     justify-content: center;
     transform-style: preserve-3d;
@@ -71,7 +74,7 @@ body{
 #barra{
     display: flex;
     position: relative;
-    width: 1260px;
+    width: 85vw;
     height: 300px;
     background-color: #FFFFFF;
     border-radius: 150px 150px 150px 150px;

@@ -10,7 +10,6 @@ function Headers(props) {
       <div class="cabecalho">
         <div class="" id="barra">
 
-        
           <div class="flip" id="card">
               <div id="front" class="face">
                 FRONT
@@ -19,6 +18,9 @@ function Headers(props) {
                 BACK
               </div>
           </div>
+
+          
+
 
           </div>
         
