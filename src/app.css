@@ -9,7 +9,7 @@ body {
   background: linear-gradient(45deg, #4c5454, #a7bed3, #4c5454);
   background-size: 250%;
 
-  animation: colors ease 10s infinite;
+  animation: colors ease 12s infinite;
 }
 @keyframes colors {
   0% {

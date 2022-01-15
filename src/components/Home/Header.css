@@ -57,3 +57,9 @@
   height: 43vh;
   border-radius: 150px 150px 150px 150px;
 }
+h4{
+  margin: 0;
+}
+#telefone{
+  margin-bottom: auto;
+}
