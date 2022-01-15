@@ -1,18 +1,23 @@
 import React from 'react'
-import Headers from './Headers.js'
-import Article from './Article.js'
-import Footer from './Footer.js'
+import './app.css'
 
-function App() {
+import Article from './components/Info/Article'
+import Headers from './components/Home/Header'
+const App = () => {
   return (
-    <div >
-    <Headers />
-    <Article />
-     <Footer />
-   </div>
+    <>
+          <Headers />
+          <Article />
+        
+  
+   </>
   );
 }
 
+
+
+
+ 
 // class App extends React.Component{
 //   render(){
 //    return (

@@ -1,0 +1,49 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.artigo {
+  display: flex;
+  width: 100vw;
+  height: 100vh;   
+}
+
+#divDireita{
+ right: 0;
+ background-color: rgb(255, 255, 255);
+}
+
+#divEsquerda{
+  left: 0;
+  background-color: white;
+}
+.divsArticle{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 50vw;
+  height: 83vh;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.divsArticle:hover{
+  animation-name: aplicaEfeitos;
+  animation-duration: 3s;
+ 
+  animation-fill-mode:forwards;
+ 
+}
+
+
+@keyframes aplicaEfeitos{
+  0% { width:50vw; z-index: 2;}
+  100% {width:  100vw;z-index: 3;}
+
+}
+h1{
+
+}

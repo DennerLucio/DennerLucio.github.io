@@ -1,0 +1,59 @@
+
+.cabecalho {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+#cartaovisita {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  height: 37vh;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  width: 328px;
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 100%;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+#front {
+  background-color: rgb(252, 252, 252);
+  transform: rotateY(180deg);
+}
+
+#back {
+  border-radius: 100%;
+  background-color: #c5d1eb;
+}
+#card {
+  display: flex;
+  justify-content: center;
+  margin-left: 149px;
+  transform-style: preserve-3d;
+  transition: all 0.7s;
+}
+#barra {
+  background-color: rgba(255, 255, 255, 0.671);
+  display: flex;
+
+  width: 85vw;
+  height: 43vh;
+  border-radius: 150px 150px 150px 150px;
+}
