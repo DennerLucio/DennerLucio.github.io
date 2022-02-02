@@ -12,43 +12,80 @@ body {
 
 #divDireita{
  right: 0;
- background:linear-gradient(45deg,#4c5454,#a7bed3,#4c5454);
+ border-right-color: #93a8a8;
+border-left-color: #647070;
 }
 
 #divEsquerda{
+  border-left-color: #93a8a8;
+  border-right-color: #647070;
   left: 0;
-  background:linear-gradient(#d7e2e2,#b1c5d8);
 }
 .divsArticle{
   display: flex;
-  position: absolute;
   flex-direction: column;
+  position: absolute;
   width: 50vw;
   height: 83vh;
   justify-content: center;
   align-self: center;
   align-items: center;
+  transition-property: width;
+  transition-duration: 2s;
+  border: solid;
+  border-width: 5px;
+  
+  border-top-color: rgba(229, 226, 226, 0) ;  
+  border-bottom-color: #5b6772 ;
+ 
+  background: linear-gradient(#677272, #a7bed3);
+  
+
+  
 }
 
 .divsArticle:hover{
-  animation-name: aplicaEfeitos;
-  animation-duration: 3s;
- 
-  animation-fill-mode:forwards;
+  width: 100vw;
+  z-index: 5;
  
 }
 .divHistorico{
+  display: none;
+  flex-direction: row;
+  animation-name: textForm ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; 
+ 
+
+}
+.his{
+  
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+.regulaSpan{
+  margin-left: 12%;
+}
+span{
+  text-align: justify;
 }
 h1{
   font-size: 35px;
+  padding: 7px;
+  
+  
+ 
 }
 
 h3{
   font-size: 23px;
   margin:  20px auto 20px auto;
 }
+
 
 
 span{
@@ -59,9 +96,41 @@ a{
   margin: 7px auto 0 auto;
 }
 
-@keyframes aplicaEfeitos{
-  0% { width:50vw; z-index: 2;}
-  100% {width:  100vw;z-index: 3;}
+.divSkill{
+  display: none;
+  flex-direction: row;
+  animation-name: textForm ;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; 
+}
+.skill{
+  display:flex;
+  flex-direction: row;
+}
+.s{
+  display: flex;
+  flex-direction:column;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  
+}
+#first{
+  margin-left: 4px;
 
 }
+.s h3{
+  position: relative;
+  margin-bottom: auto;
+}
 
+p{
+  text-align: center;
+}
+@keyframes textForm{
+  0%{ opacity: 0;}
+  100%{ opacity: 1;}
+
+}

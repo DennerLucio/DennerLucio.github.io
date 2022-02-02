@@ -1,6 +1,7 @@
 
 ::-webkit-scrollbar {
   width: 0px;
+  height: 0px;
 }
 body {
   padding: 0;
@@ -22,3 +23,4 @@ body {
     background-position: 0% 50%;
   }
 }
+body, input, span, p, button, textarea{font-family: 'Roboto', sans-serif;}

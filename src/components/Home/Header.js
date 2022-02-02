@@ -18,7 +18,7 @@ const Header = () => {
               FRONT
             </div>
             <div className="face" id="back">
-            <span> https://www.instagram.com/denner.lucio/?hl=pt-br</span>
+            <span id="intro">Olá sou o Denner, sou cristão, curto games e sou bem humorado, sou bem caseiro e fico em casa maior parte do meu tempo. Seja bem vindo a minha página</span>
             </div>
           </div>
           <div id="cartaovisita">
