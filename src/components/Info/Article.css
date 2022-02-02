@@ -85,7 +85,11 @@ h3{
   font-size: 23px;
   margin:  20px auto 20px auto;
 }
-
+#fortitulo{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
 
 
 span{
@@ -97,6 +101,7 @@ a{
 }
 
 .divSkill{
+ overflow: hidden;
   display: none;
   flex-direction: row;
   animation-name: textForm ;

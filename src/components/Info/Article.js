@@ -6,10 +6,14 @@ const Article = () => {
   function confereE() {
     c = !c;
     var divHis = document.getElementById("divHis");
+    var tit = document.getElementById("fortitulo")
     if (c) {
       divHis.style.display = "none";
+     tit.style.top= "50%"
+    
     } else {
       divHis.style.display = "flex";
+      tit.style.top= "10%"
     }
   }
 

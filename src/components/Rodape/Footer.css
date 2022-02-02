@@ -7,7 +7,7 @@
 .rodape{
     display: flex;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: rgb(88, 88, 88);
