@@ -6,19 +6,26 @@
 }
 .rodape{
     display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(70, 69, 69);
 
 }
 .logos{
-    width: 150px;
-    height: 150px;
-    margin: 0 5px 0 5px;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 50px;
 
 }
 a{
     margin: 0;
+}
+#spanFinal{
+    
+    font-size: 21px;
+    margin-top: 50px;
+    color: white;
 }
