@@ -2,6 +2,9 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
+  
+
+
   window.onload = function flip() {
     const card = document.querySelector("#card");
     card.addEventListener("click", (e) => {
@@ -15,10 +18,11 @@ const Header = () => {
         <div className="" id="barra">
           <div className="flip" id="card">
             <div className="face" id="front">
-              FRONT
+            <img class="foto" src="/img/pp.jpeg" alt="foto de perfil" />
             </div>
             <div className="face" id="back">
-            <span id="intro">Olá sou o Denner, sou cristão, curto games e sou bem humorado, sou bem caseiro e fico em casa maior parte do meu tempo. Seja bem vindo a minha página</span>
+            <span id="intro">Olá você clicou na minha foto e acabou descobrindo um pouco mais sobre mim: 
+            Prazer Meu nome é Denner, eu sou um cara Cristão, curto games (Principalmente FPS e RPGs), bem humorado e bem caseiro.<br></br><br></br> Seja bem vindo a minha página!!!</span>
             </div>
           </div>
           <div id="cartaovisita">

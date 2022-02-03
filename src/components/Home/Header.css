@@ -7,6 +7,13 @@
   justify-content: center;
  
 }
+.foto{
+  
+  
+  height: 328px;
+  width: 328px;
+  
+}
 
 
 #cartaovisita {
@@ -20,12 +27,15 @@
 }
 
 .face {
+  overflow: hidden;
   width: 328px;
   height: 43vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  
+ 
   border-radius: 100%;
 }
 

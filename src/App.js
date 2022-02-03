@@ -5,6 +5,8 @@ import Article from './components/Info/Article'
 import Headers from './components/Home/Header'
 import Footer from './components/Rodape/Footer'
 const App = () => {
+ 
+
   return (
     <>
           <Headers />
