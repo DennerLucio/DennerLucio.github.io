@@ -21,8 +21,8 @@ const Header = () => {
             <img class="foto" src="/img/pp.jpeg" alt="foto de perfil" />
             </div>
             <div className="face" id="back">
-            <span id="intro">Olá você clicou na minha foto e acabou descobrindo um pouco mais sobre mim: 
-            Prazer Meu nome é Denner, eu sou um cara Cristão, curto games (Principalmente FPS e RPGs), bem humorado e bem caseiro.<br></br><br></br> Seja bem vindo a minha página!!!</span>
+            <span id="intro">Olá você clicou na minha foto e acabou descobrindo um pouco mais sobre mim:<br></br> 
+            Prazer Meu nome é Denner,<br></br> eu sou um cara Cristão, curto games (Principalmente FPS e RPGs),<br></br> bem humorado e bem caseiro.<br></br><br></br> Seja bem vindo a minha página!!!</span>
             </div>
           </div>
           <div id="cartaovisita">
