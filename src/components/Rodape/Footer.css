@@ -11,7 +11,7 @@
     height: 65vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(70, 69, 69);
+    background: linear-gradient(#a7bed349, #8695a5,#4c5454);
 
 }
 .logos{

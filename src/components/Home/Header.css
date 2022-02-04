@@ -29,7 +29,7 @@
 .face {
   overflow: hidden;
   width: 328px;
-  height: 43vh;
+  height: 328px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,8 +63,8 @@
   background-color: rgba(255, 255, 255, 0.671);
   display: flex;
 
-  width: 85vw;
-  height: 43vh;
+  width: 1400px;
+  height: 328px;
   border-radius: 150px 150px 150px 150px;
 }
 h4{
