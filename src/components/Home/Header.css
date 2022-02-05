@@ -48,11 +48,11 @@
   transform: rotateY(180deg);
 }
 
-#back {
+/* #back {
   
   
-  background-color: #bccfd1;
-}
+  
+} */
 #card {
   display: flex;
   justify-content: center;

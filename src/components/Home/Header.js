@@ -18,7 +18,7 @@ const Header = () => {
               <img class="foto" src="/img/pp.jpeg" alt="foto de perfil" />
             </div>
             <div className="face" id="back">
-              <img class="foto" src="/img/logoDL.jpeg" alt="foto de perfil" />
+              <img class="foto" src="/img/LogoDenner.jpeg" alt="foto de perfil" />
               {/* <span id="intro">Olá você clicou na minha foto e acabou descobrindo um pouco mais sobre mim:<br></br> 
             Prazer Meu nome é Denner,<br></br> eu sou um cara Cristão, curto games (Principalmente FPS e RPGs),
             <br></br> bem humorado e bem caseiro.<br></br><br></br> Seja bem vindo a minha página!!!</span>*/}
