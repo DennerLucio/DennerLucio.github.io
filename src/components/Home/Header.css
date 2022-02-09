@@ -40,11 +40,11 @@
 }
 #front{
   transform: rotateY(180deg);
-  background-color: aliceblue;
+  
 }
 #back{
   opacity: 0;
-  transform: rotateY(180deg);
+  
 }
 
 
