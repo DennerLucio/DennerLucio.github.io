@@ -4,8 +4,21 @@ import "./Header.css";
 const Header = () => {
   window.onload = function flip() {
     const card = document.querySelector("#card");
+    const bugIdiota = document.getElementById("back")
+    var b = true;
     card.addEventListener("click", (e) => {
+      b = !b
       card.classList.toggle("flip");
+if(b){
+  bugIdiota.style.opacity = '1'
+}else{
+  bugIdiota.style.opacity = '0'
+}
+
+     
+      
+
+
     });
   };
 
@@ -15,13 +28,14 @@ const Header = () => {
         <div className="" id="barra">
           <div className="flip" id="card">
             <div className="face" id="front">
-              <img class="foto" src="/img/pp.jpeg" alt="foto de perfil" />
+              <img
+                class="foto"
+                src="/img/pp.jpeg"
+                alt="foto de perfil"
+              />
             </div>
             <div className="face" id="back">
-              <img class="foto" src="/img/logoDenner.jpeg" alt="foto de perfil" />
-              {/* <span id="intro">Olá você clicou na minha foto e acabou descobrindo um pouco mais sobre mim:<br></br> 
-            Prazer Meu nome é Denner,<br></br> eu sou um cara Cristão, curto games (Principalmente FPS e RPGs),
-            <br></br> bem humorado e bem caseiro.<br></br><br></br> Seja bem vindo a minha página!!!</span>*/}
+              <img class="foto" src="/img/logoDenner.jpeg" alt="logo" />
             </div>
           </div>
           <div id="cartaovisita">

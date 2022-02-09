@@ -9,7 +9,6 @@
 }
 .foto{
   
-  
   height: 328px;
   width: 328px;
   
@@ -27,32 +26,28 @@
 }
 
 .face {
-  overflow: hidden;
   width: 328px;
   height: 328px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
-  
- 
   border-radius: 100%;
+  transition-property: opacity;
+  transition-duration: 1.5s;
 }
 
 .flip {
   transform: rotateY(180deg);
 }
-
-#front {
-  background-color: rgb(252, 252, 252);
+#front{
+  transform: rotateY(180deg);
+  background-color: aliceblue;
+}
+#back{
+  opacity: 0;
   transform: rotateY(180deg);
 }
 
-/* #back {
-  
-  
-  
-} */
+
 #card {
   display: flex;
   justify-content: center;
