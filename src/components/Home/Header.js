@@ -5,7 +5,7 @@ const Header = () => {
   window.onload = function flip() {
     const card = document.querySelector("#card");
     const bugIdiota = document.getElementById("back")
-    var b = true;
+    var b = false;
     card.addEventListener("click", (e) => {
       b = !b
       card.classList.toggle("flip");
