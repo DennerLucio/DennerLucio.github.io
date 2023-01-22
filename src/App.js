@@ -1,7 +1,7 @@
 import React from 'react'
 import './app.css'
 
-import Article from './components/Info/Article'
+// import Article from './components/Info/Article'
 import Headers from './components/Home/Header'
 import Footer from './components/Rodape/Footer'
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
           <Headers />
-          <Article />
+          {/* <Article /> */}
           <Footer />
   
    </>
