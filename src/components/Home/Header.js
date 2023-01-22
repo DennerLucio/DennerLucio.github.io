@@ -15,9 +15,6 @@ if(b){
   bugIdiota.style.opacity = '0'
 }
 
-     
-      
-
 
     });
   };

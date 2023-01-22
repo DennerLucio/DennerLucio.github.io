@@ -1,16 +1,16 @@
 import React from 'react'
 import './app.css'
 
-// import Article from './components/Info/Article'
+import { Nav } from './components/Nav/Nav'
 import Headers from './components/Home/Header'
 import Footer from './components/Rodape/Footer'
 const App = () => {
  
 
   return (
-    <>
+    <>    
+          <Nav />    
           <Headers />
-          {/* <Article /> */}
           <Footer />
   
    </>
