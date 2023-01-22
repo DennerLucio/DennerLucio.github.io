@@ -9,7 +9,7 @@
     align-items: center;
     
     border-bottom: outset;
-    border-color: black;
+    border-color: rgb(0, 60, 255);
     border-width: 5px;
     
 }
@@ -28,7 +28,14 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
 }
+.containerLogo img{
+    
+    height: 100px;
+    width: 120px;
+    
+  }
 .h1Name{
     color: rgb(0, 0, 0);
     letter-spacing: 3px;
@@ -51,12 +58,12 @@
   height: 0; 
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-top: 12px solid #949396;
+  border-top: 12px solid #58585886;
   
 }
 .containerList li:hover{
     transition: 0.5s ease-in;
-    color: #979797;
+    color: rgb(0, 60, 255);;
 
 }
 
@@ -80,7 +87,7 @@
         right: 0;
         width: 100vw;
         height: 14vh;
-        background-color:#EFEAEA;
+        background-color:#70e8f863;
         margin: 0;
         flex-direction: column;
         justify-content: space-around;

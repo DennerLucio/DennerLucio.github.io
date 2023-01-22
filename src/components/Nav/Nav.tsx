@@ -15,7 +15,10 @@ export function Nav(){
         <div>
             <div className='containerNav'>
 
-            <div className='containerLogo'><h1 className='h1Name'>Denner Lucio</h1></div>
+            <div className='containerLogo'>
+                <img className="foto" src="/img/logoDenner.png" alt="logo" />
+                <h1 className='h1Name'>Denner Lucio</h1>
+                </div>
             <div className='mobile-menu' onClick={handleClick}></div>
             <div>
                 <ul className={toggle ? 'containerList' : 'containerList active'}>
