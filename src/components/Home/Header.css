@@ -7,38 +7,41 @@
   justify-content: center;
  
 }
-.foto{
-  
+#barra {
+  background-color: rgba(255, 255, 255, 0.918);
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
   height: 328px;
-  width: 328px;
-  
 }
-
-
-#cartaovisita {
+.paredebranca{
   display: flex;
   flex-direction: column;
-  width: 45vw;
-  height: 37vh;
-  margin:auto;
+  
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 250px;
+  height: 250px;
+}
+.face {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
   justify-content: center;
   align-items: center;
-}
-
-.face {
-  width: 328px;
-  height: 328px;
-  display: flex;
-  position: absolute;
-  border-radius: 100%;
   transition-property: opacity;
   transition-duration: 1.5s;
 }
 
-.flip {
+
+.flip { 
   transform: rotateY(180deg);
 }
 #front{
+  
   transform: rotateY(180deg);
   
 }
@@ -46,23 +49,55 @@
   opacity: 0;
   
 }
+#back1{
+  opacity: 0;
+  
+}
+#back2{
+  opacity: 0;
+  
+}
+#back3{
+  opacity: 0;
+  
+}
 
+.icone{
+width: 250px;
+height: 250px;
+}
+.icone_back{
+  width: 150px;
+  height: 150px;
 
+}
 #card {
   display: flex;
   justify-content: center;
-  margin-left: 149px;
+  margin-left: 250px;
   transform-style: preserve-3d;
   transition: all 0.7s;
 }
-#barra {
-  background-color: rgba(255, 255, 255, 0.918);
+#card1 {
   display: flex;
-  overflow: hidden;
-  width: 1400px;
-  height: 328px;
-  border-radius: 200px 200px 200px 200px;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all 0.7s;
 }
+#card2 {
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: all 0.7s;
+}
+#card3 {
+  display: flex;
+  justify-content: center;
+  margin-right: 250px;
+  transform-style: preserve-3d;
+  transition: all 0.7s;
+}
+
 h4{
   margin: 0;
 }
