@@ -59,7 +59,7 @@ const Header = () => {
       bugIdiota3.style.opacity = '1'
       bugIdiota3.style.zIndex = '1'}
     else{
-      bugIdiota3.style.opacity = '1'
+      bugIdiota3.style.opacity = '0'
       bugIdiota3.style.zIndex = '-1'}
     });
 
@@ -70,61 +70,73 @@ const Header = () => {
     <div>
       <div class="cabecalho">
         <div className="" id="barra">
-
+        <div className="alinha">
           <div className="flip" id="card">
             <div className="face" id="front">
-              <img className="icone" src="/icons/local.png" alt="icone_localização" />
+              <div className="paredebranca">
+              <img className="icone" src="/icons/local.png" alt="icone_localização"/>
+              </div>
             </div>
             <div className="face" id="back">
-              <div className="paredebranca">
+              <div className="paredefundo">
               <a href="https://www.google.com/maps/place/Sarzedo,+MG,+32450-000/@-20.0362601,-44.1438109,15z/data=!4m6!3m5!1s0xa6c700b65494e5:0xb944a24b331c7114!8m2!3d-20.0359196!4d-44.1456593!16s%2Fg%2F11bxfycp72" target="_blank" rel="noopener noreferrer">
                 <img className="icone_back" src="/icons/localizacao.png" alt="icone_teste" />
                 </a>
-                <p className="p1">MG</p>
-                <p>Sarzedo</p>
+                <p className="p1">Localidade</p>
+                <p>Sarzedo - MG</p>
               </div>
             </div>
           </div>
 
           <div className="flip" id="card1">
             <div className="face" id="front">
+            <div className="paredebranca">
               <img className="icone" src="/icons/watsblack.png" alt="icone_localização" />
+              </div>
             </div>
             <div className="face" id="back1">
-              <div className="paredebranca" >
-                
-                <img className="icone_back" src="/icons/whatsapp.png" alt="icone_teste" />
-              
-                
-                <p className="p1">(31)99803-6573</p>
+              <div className="paredefundo" >
+                <a  className="p1" href="https://api.whatsapp.com/send?phone=31998036573&text=Oi,%20meu%20nome%20é%20Denner,%20será%20um%20prazer%20conversar%20com%20você%20:D." target="_blank" rel="noopener noreferrer">
+                  <img className="icone_back" src="/icons/whatsapp.png" alt="icone_teste" />
+                </a>         
+                <p className="p1">(31) 99803-6573</p>
               </div>
             </div>
           </div>
 
           <div className="flip" id="card2">
             <div className="face" id="front">
+            <div className="paredebranca">
               <img className="icone" src="/icons/github.png" alt="icone_localização" />
             </div>
+            </div>
+
             <div className="face" id="back2">
-              <div className="paredebranca" >
-                <img className="icone_back" src="/icons/githubback.png" alt="icone_teste" />
-                <a  className="p1" href="https://github.com/DennerLucio" target="_blank" rel="noopener noreferrer">Denner Lucio</a>
+              <div className="paredefundo" >
+                <a  className="p1" href="https://github.com/DennerLucio" target="_blank" rel="noopener noreferrer">
+                  <img className="icone_back" src="/icons/githubback.png" alt="icone_teste" />
+                </a>  
+                <p>Denner Lucio</p>
               </div>
             </div>
           </div>
 
           <div className="flip" id="card3">
             <div className="face" id="front">
+            <div className="paredebranca">
               <img className="icone" src="/icons/email.png" alt="icone_localização" />
             </div>
+            </div>
             <div className="face" id="back3">
-              <div className="paredebranca" >
-                <img className="icone_back" src="/icons/gmail.png" alt="icone_teste" />
+              <div className="paredefundo" >
+                <a href="mailto:denner.luciosl@gmail.com">
+                  <img className="icone_back" src="/icons/gmail.png" alt="icone_email" />
+                </a>
                 <p  className="p1">denner.luciosl@gmail.com</p>
               </div>
             </div>
           </div>
-
+          </div>
         </div>
       </div>
     </div>

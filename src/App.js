@@ -3,7 +3,7 @@ import './app.css'
 
 import { Nav } from './components/Nav/Nav'
 import Headers from './components/Home/Header'
-import Footer from './components/Rodape/Footer'
+
 const App = () => {
  
 
@@ -11,8 +11,6 @@ const App = () => {
     <>    
           <Nav />    
           <Headers />
-          <Footer />
-  
    </>
   );
 }
