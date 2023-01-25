@@ -35,37 +35,48 @@
   transition-property: opacity;
   transition-duration: 1.5s;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 
 
 .flip { 
   transform: rotateY(180deg);
 }
 #front{
-  
+  z-index: 1;
   transform: rotateY(180deg);
   
 }
 #back{
   opacity: 0;
-  
+  z-index: -1;
 }
 #back1{
   opacity: 0;
-  
+  z-index: -1;
 }
 #back2{
   opacity: 0;
-  
+  z-index: -1;
 }
 #back3{
   opacity: 0;
-  
+  z-index: -1;
+}
+p{
+ margin: 0;
+}
+.p1{
+  margin: 10px 0px 0px  0px;
 }
 
 .icone{
-width: 250px;
-height: 250px;
+width: 225px;
+height: 225px;
 }
+
 .icone_back{
   width: 150px;
   height: 150px;
@@ -74,7 +85,7 @@ height: 250px;
 #card {
   display: flex;
   justify-content: center;
-  margin-left: 250px;
+  margin-left: 450px;
   transform-style: preserve-3d;
   transition: all 0.7s;
 }
@@ -93,7 +104,7 @@ height: 250px;
 #card3 {
   display: flex;
   justify-content: center;
-  margin-right: 250px;
+  margin-right: 450px;
   transform-style: preserve-3d;
   transition: all 0.7s;
 }
