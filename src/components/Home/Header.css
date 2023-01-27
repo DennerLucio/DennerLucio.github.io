@@ -3,15 +3,17 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 #barra {
-  background-color: rgba(49, 214, 255, 0.918);
+  background-color: rgba(157, 235, 255, 0.918);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
-  height: 500px;
+  height: 100vh;
 }
 .paredebranca{
   display: flex;
@@ -34,9 +36,9 @@
   border-radius: 25px 25px 25px 25px;
   border: solid;
   border-color: rgb(11, 206, 255);
-  border-radius: 25px 25px 25px 25px;
 }
 .face {
+
   width: 250px;
   height: 250px;
   display: flex;
@@ -46,11 +48,12 @@
   align-items: center;
   transition-property: opacity;
   transition-duration: 1.5s;
-  align-self: center;
+ 
 
 }
 .alinha{
   display: flex;
+  flex-direction: row;
   width: 100vw;
   height: 250px;
   justify-content: space-between;
@@ -138,10 +141,7 @@ h4{
 #telefone{
   margin-bottom: 10px;
 }
-#intro{
-  font-size: 14px;
-  text-align:center;
-}
+
 
 @media  (max-width: 1599px) {
   #card {
@@ -178,6 +178,46 @@ h4{
  
 }
 @media  (max-width: 999px) {
- 
- 
+  
+
+
+
+}
+@media  (max-width: 750px){
+
+  .alinha{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  #card {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    transform-style: preserve-3d;
+    transition: all 0.7s;
+  }
+  #card1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    transform-style: preserve-3d;
+    transition: all 0.7s;
+  }
+  #card2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    transform-style: preserve-3d;
+    transition: all 0.7s;
+  }
+  #card3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    transform-style: preserve-3d;
+    transition: all 0.7s;
+  }
+
 }

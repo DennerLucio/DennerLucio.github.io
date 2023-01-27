@@ -2,7 +2,24 @@ import React from "react";
 import "./Header.css";
 
 const Header = () => {
+  const ClassA = "mobile_card"
+  const ClassB = "mobile_card1"
+  const ClassC = "mobile_card2"
+  const ClassD = "mobile_card3"
+
   window.onload = function flip() {
+
+    // var tela = window.matchMedia("(max-width: 999px)");
+    // const alinhador = document.querySelector("al");
+    
+    
+    // function resolucao(tela) {
+    //   if (tela.matchMedia) {
+    //     alinhador.toggle("alinha")
+    //   }
+    // }
+
+
     const card = document.querySelector("#card");
     const card1 = document.querySelector("#card1");
     const card2 = document.querySelector("#card2");
@@ -69,10 +86,11 @@ const Header = () => {
   return (
     <div>
       <div class="cabecalho">
+        <h1>Contato</h1>
         <div className="" id="barra">
-        <div className="alinha">
+        <div className="alinha" id="al">
           <div className="flip" id="card">
-            <div className="face" id="front">
+            <div className={`face ${ClassA}`} id="front">
               <div className="paredebranca">
               <img className="icone" src="/icons/local.png" alt="icone_localização"/>
               </div>
