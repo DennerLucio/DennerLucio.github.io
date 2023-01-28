@@ -5,7 +5,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
+  position: relative;
+ 
 }
 
 #tituloContato{
@@ -15,7 +16,6 @@
   justify-content: center;
   width: 100vw;
   height: 10vh;
-
 }
 #TopicoContato{
 font-size: 42px;
@@ -215,14 +215,19 @@ h4{
 
 
 }
-@media  (max-width: 800px){
-  /* .cabecalho {
+@media  (max-width: 800px ) or (max-height: 700px) {
+  .cabecalho {
     height: 500px;
+    z-index: -5;
     
   }
+  #tituloContato{
+    height: 50px;
+
+  }
   #barra{
-    height: 500px;
-  } */
+    height: 450px;
+  } 
   .alinha{
     display: flex;
     flex-direction: row;
@@ -256,5 +261,11 @@ h4{
     transform-style: preserve-3d;
     transition: all 0.7s;
   }
+
+}
+@media  (max-height: 700px){
+ 
+
+
 
 }
