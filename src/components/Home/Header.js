@@ -3,9 +3,9 @@ import "./Header.css";
 
 const Header = () => {
   const ClassA = "mobile_card"
-  const ClassB = "mobile_card1"
-  const ClassC = "mobile_card2"
-  const ClassD = "mobile_card3"
+  // const ClassB = "mobile_card1"
+  // const ClassC = "mobile_card2"
+  // const ClassD = "mobile_card3"
 
   window.onload = function flip() {
 
@@ -86,7 +86,7 @@ const Header = () => {
   return (
     <div>
       <div class="cabecalho">
-        <h1>Contato</h1>
+        <div id="tituloContato"><h1 id="TopicoContato" className="GradienteSubli">Contato</h1></div>
         <div className="" id="barra">
         <div className="alinha" id="al">
           <div className="flip" id="card">

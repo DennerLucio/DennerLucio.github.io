@@ -1,19 +1,49 @@
 
 .cabecalho {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  
 }
+
+#tituloContato{
+  display: flex;
+  background-color: #edf2f2;
+  position: relative;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+
+}
+#TopicoContato{
+font-size: 42px;
+color: #288ff7;
+}
+.GradienteSubli{
+  background-image: linear-gradient(90deg,rgb(0, 0, 255),rgb(0, 235, 252));
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 500ms ease;
+  background-size: 0% 3px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.GradienteSubli:hover{
+  background-size: 100% 3px;
+
+}
+
+
 #barra {
-  background-color: rgba(157, 235, 255, 0.918);
+  background-color: #edf2f2;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 40vh;
 }
 .paredebranca{
   display: flex;
@@ -30,12 +60,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(202, 253, 255);
-  width: 230px;
-  height: 230px;
+  background-color: #8bc5ff;
+  width: 225px;
+  height: 225px;
   border-radius: 25px 25px 25px 25px;
   border: solid;
-  border-color: rgb(11, 206, 255);
+  border-color: #7cbeff;
 }
 .face {
 
@@ -92,6 +122,7 @@ a{
 }
 p{
  margin: 0;
+ font-weight: bold;
 }
 .p1{
   margin: 10px 0px 0px  0px;
@@ -104,6 +135,7 @@ p{
 }
 
 .icone_back{
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
   width: 125px;
   height: 125px;
 
@@ -183,10 +215,15 @@ h4{
 
 
 }
-@media  (max-width: 750px){
-
+@media  (max-width: 800px){
+  /* .cabecalho {
+    height: 500px;
+    
+  }
+  #barra{
+    height: 500px;
+  } */
   .alinha{
-    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
@@ -194,7 +231,7 @@ h4{
   #card {
     display: flex;
     justify-content: center;
-    margin-left: 250px;
+    margin-left: 200px;
     transform-style: preserve-3d;
     transition: all 0.7s;
   }

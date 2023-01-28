@@ -1,6 +1,6 @@
 .containerNav{
    
-    background-color: #ffffff;
+    background-color: #252525;
     width: 100vw;
     height: 12vh;
     display: flex;
@@ -8,9 +8,9 @@
     justify-content:space-around;
     align-items: center;
     
-    border-bottom: outset;
-    border-color: rgb(0, 60, 255);
-    border-width: 5px;
+    border-bottom: solid;
+    border-color: #288ff7;
+    border-width: 7px;
     
 }
 .containerList{
@@ -37,13 +37,13 @@
     
   }
 .h1Name{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 3px;
     font-size: xx-large;
     
 }
 .containerList li{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     letter-spacing: 3px;
     margin-left: 32px;
@@ -63,7 +63,7 @@
 }
 .containerList li:hover{
     transition: 0.5s ease-in;
-    color: rgb(0, 60, 255);;
+    color: #288ff7;
 
 }
 
