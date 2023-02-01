@@ -3,13 +3,14 @@ import './app.css'
 
 import { Nav } from './components/Nav/Nav'
 import Headers from './components/Home/Header'
-
+import Article from './components/Info/Article'
 const App = () => {
  
 
   return (
     <>    
-          <Nav />    
+          <Nav />
+          <Article />    
           <Headers />
           
    </>

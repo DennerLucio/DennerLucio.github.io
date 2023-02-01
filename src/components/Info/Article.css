@@ -1,141 +1,62 @@
+.Tec{
+  background-color:#252525;
 
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.artigo {
-  display: flex;
-  width: 100vw;
-  height: 100vh;   
 }
 
-#divDireita{
- right: 0;
- border-right-color: #93a8a8;
-border-left-color: #647070;
-}
-
-#divEsquerda{
-  border-left-color: #93a8a8;
-  border-right-color: #647070;
-  left: 0;
-}
-.divsArticle{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 49.5vw;
-  height: 83vh;
+.carousel{
+  width: 80VW;
+  height: 125px;
+  margin: auto;
   justify-content: center;
-  align-self: center;
-  align-items: center;
-  transition-property: width;
-  transition-duration: 2s;
-  border: solid;
-  border-width: 5px;
-  
-  border-top-color: rgba(229, 226, 226, 0) ;  
-  border-bottom-color: #5b6772 ;
  
-  background: linear-gradient(#677272, #a7bed3);
-  
-
   
 }
-
-.divsArticle:hover{
-  width: 100vw;
-  z-index: 5;
- 
-}
-.divHistorico{
-  display: none;
-  flex-direction: row;
-  animation-name: textForm ;
-  animation-duration: 3s;
-  animation-fill-mode: forwards; 
- 
-
-}
-.his{
-  
+#tituloTec{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-
-}
-.regulaSpan{
-  margin-left: 12%;
-}
-span{
-  text-align: justify;
-}
-h1{
-  font-size: 35px;
-  padding: 7px;
-  
-  
- 
-}
-
-h3{
-  font-size: 23px;
-  margin:  20px auto 20px auto;
-}
-#fortitulo{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-100%)
-}
-
-
-span{
-  font-size: 17px;
-  margin: 2px;
-}
-a{
-  margin: 7px auto 0 auto;
-}
-
-.divSkill{
- overflow: hidden;
-  display: none;
-  flex-direction: row;
-  animation-name: textForm ;
-  animation-duration: 3s;
-  animation-fill-mode: forwards; 
-}
-.skill{
-  display:flex;
-  flex-direction: row;
-}
-.s{
-  display: flex;
-  flex-direction:column;
-  width: 20%;
-  justify-content: center;
-  align-items: center;
-  border: solid;
-  border-width: 1px;
-  
-}
-#first{
-  margin-left: 4px;
-
-}
-.s h3{
+  background-color: #252525;
   position: relative;
-  margin-bottom: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+.carousel ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.carousel li{
+  justify-content: center;
+  margin: 0px 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  transition: color 0.7s ease;
+  color:  #252525;
+  cursor: pointer;
+  }
+  .carousel li:hover{
+    color: #288ff7
+  }
+
+.carousel img{
+  width: 80px;
+  height: 80px;
 }
 
-p{
-  text-align: center;
+.carousel p{
+  font-size: 16px;
+  font-weight: normal;
 }
-@keyframes textForm{
-  0%{ opacity: 0;}
-  100%{ opacity: 1;}
+
+@keyframes slide{
+
+}
+
+@media  (max-width: 999px) {
+  
+
+
 
 }

@@ -86,7 +86,7 @@ const Header = () => {
   return (
     <div>
       <div class="cabecalho">
-        <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli">Contato</a></h1></div>
+        <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli" href="#al">Contato</a></h1></div>
         <div className="" id="barra">
         <div className="alinha" id="al">
           <div className="flip" id="card">
