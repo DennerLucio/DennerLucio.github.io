@@ -24,6 +24,7 @@ export function Nav(){
                 <ul className={toggle ? 'containerList' : 'containerList active'}>
                 <li>Sobre Mim</li>
                 <li>Portifólio</li>
+                <li>Contato</li>
                 </ul>
             </div>
             
