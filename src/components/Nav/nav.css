@@ -2,7 +2,7 @@
    
     background-color: #252525;
     width: 100vw;
-    height: 12vh;
+    height: 110px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -28,24 +28,25 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin-left: 15px;
 
 }
 .containerLogo img{
-    
+
     height: 100px;
-    width: 120px;
+    width: 110px;
     
   }
 .h1Name{
     color: rgb(255, 255, 255);
-    letter-spacing: 3px;
-    font-size: xx-large;
+    letter-spacing: 2px;
+    font-size: 26px;
     
 }
 .containerList li{
     color: rgb(255, 255, 255);
     cursor: pointer;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-left: 32px;
    
 }

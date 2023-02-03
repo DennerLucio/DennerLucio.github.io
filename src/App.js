@@ -1,5 +1,6 @@
 import React from 'react'
 import './app.css'
+import Sobremim from './components/Sobremim/Sobremim'
 import Footer from './components/Rodape/Footer'
 import { Nav } from './components/Nav/Nav'
 import Headers from './components/Home/Header'
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <>    
           <Nav />
+          <Sobremim />
           <Article />    
           <Headers />
           <Footer />

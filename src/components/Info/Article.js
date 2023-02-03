@@ -4,9 +4,9 @@ import "./Article.css";
 const Article = () => {
   return (
     <div className="Tec">
-      <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#al">Tecnologias</a></h1></div>
-      <div  className="carousel">
-        <ul>
+      <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t">Tecnologias</a></h1></div>
+      <div  className="carousel" >
+        <ul id="t">
             <li> <img className="icone" src="/icons/html5_icon.png" alt="icone_HTML5" /><p>HTML5</p> </li>
             <li> <img className="icone" src="/icons/css3_icon.png" alt="icone_HTML5" /><p>CSS3</p>  </li>
             <li> <img className="icone" src="/icons/sass_icon.png" alt="icone_HTML5" /><p>SASS</p> </li>
