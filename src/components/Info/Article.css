@@ -1,6 +1,9 @@
 .Tec{
+  display: flex;
+  flex-direction: column;
   background-color:#252525;
-
+  width: 100vw;
+  height: 450px;
 }
 
 .carousel{
@@ -8,8 +11,11 @@
   height: 125px;
   margin: auto;
   justify-content: center;
- 
   
+  
+}
+.carousel:last-child{
+  margin-bottom: 75px;
 }
 #tituloTec{
   display: flex;

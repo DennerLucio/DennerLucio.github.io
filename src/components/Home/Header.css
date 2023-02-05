@@ -1,11 +1,13 @@
 
+
 .cabecalho {
   width: 100vw;
-  height: 375px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   position: relative;
+  background-color: #edf2f2;
  
 }
 
@@ -56,6 +58,7 @@ color: #288ff7;
   justify-content: center;
   width: 100vw;
   height: 300px;
+  margin-bottom: 25px;
 }
 .paredebranca{
   display: flex;
