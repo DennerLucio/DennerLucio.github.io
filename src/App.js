@@ -3,8 +3,10 @@ import './app.css'
 import Sobremim from './components/Sobremim/Sobremim'
 import Footer from './components/Rodape/Footer'
 import { Nav } from './components/Nav/Nav'
-import Headers from './components/Home/Header'
-import Article from './components/Info/Article'
+import Portifolio from './components/Portifolio/portifolio.js'
+import Contato from './components/Contato/Contato'
+import Tecnologia from './components/Tecnologia/Tecnologia'
+
 const App = () => {
  
 
@@ -12,8 +14,9 @@ const App = () => {
     <>    
           <Nav />
           <Sobremim />
-          <Article />    
-          <Headers />
+          <Tecnologia />
+          <Portifolio />    
+          <Contato />
           <Footer />
    </>
   );

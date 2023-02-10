@@ -1,7 +1,7 @@
 import React from "react";
-import "./Article.css";
+import "./Tecnologia.css";
 
-const Article = () => {
+const Tecnologia = () => {
   return (
     <div className="Tec">
       <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t">Tecnologias</a></h1></div>
@@ -28,4 +28,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default Tecnologia;

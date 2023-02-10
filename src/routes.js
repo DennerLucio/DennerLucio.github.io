@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import Home from './components/Home';
-import Info from './components/Info';
+import Home from './components/Contato';
+import Info from './components/Tecnologia';
 
 function Rotas() {
     return(
