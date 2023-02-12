@@ -15,11 +15,10 @@ const Portifolio = () => {
         <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t">Portifólio</a></h1></div>
          <Carousel breakPoints={breakPoints} className="gallery_carousel">
          <Card num="<In Development/>"/>
-         <Card num="mari"/>
-         <Card />
-         <Card />
-         <Card />
-         <Card />
+         <Card num="<In Development/>"/>
+         <Card num="<In Development/>"/>
+         <Card num="<In Development/>"/>
+         <Card num="<In Development/>"/>
         </Carousel>
          </div>
       
