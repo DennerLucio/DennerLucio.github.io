@@ -7,6 +7,7 @@ const Contato = () => {
 
   return (
     <div className="Intro">
+      <div className="foto_perfil"></div>
       <div className="alinha_Intro">
       <div class="animated-title">
         <div class="text-top">
@@ -20,7 +21,7 @@ const Contato = () => {
       </div>
       </div>
       </div>  
-    <div className="foto_perfil"></div>
+    
     
   </div>
   );
