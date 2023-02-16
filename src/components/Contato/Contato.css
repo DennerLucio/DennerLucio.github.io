@@ -16,7 +16,7 @@
 
 }
 .foto_perfil{
-  
+  margin-left: 20vmin;
   width: 35vmin;
   height: 35vmin;
   background-color: rgb(255, 255, 8);
@@ -88,7 +88,7 @@
 
 #tituloContato{
   display: flex;
-  background-color: #edf2f2;
+  background-color: #252525;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -172,13 +172,17 @@ p{
   overflow: hidden;
   }
   .foto_perfil{
+    margin-left: 0px;
     width: 200px;
     height: 200px;
     background-color: rgb(255, 255, 8);
     border-radius: 50%;
    
   }
-
+  #TopicoContato{
+    font-size: 34px;
+    color: #288ff7;
+    }
 
   .text-top {
     display: flex;

@@ -3,7 +3,7 @@ import "./Sobremim.css";
 const Sobremim = () => {
   return (
     <div className="sobremim">
-      <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli" href="#al">Sobre</a></h1></div>
+      <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli" href="#al">Sobre Mim</a></h1></div>
       <div className="sobre_mim">
           <div className="txt"> 
           <p id="boas_vindas">Seja bem vindo a minha pagina!</p>

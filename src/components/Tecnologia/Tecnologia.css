@@ -3,15 +3,18 @@
   flex-direction: column;
   background-color:#252525;
   width: 100vw;
-  height: 450px;
+  height: 550px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
 }
 
 .carousel{
-  width: 80VW;
-  height: 125px;
+  display: flex;
+  width: 50vw;
+  height: 400px;
   margin: auto;
   justify-content: center;
-  
   
 }
 .carousel:last-child{
@@ -27,13 +30,19 @@
   height: 100px;
 }
 .carousel ul{
+
   display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
   list-style: none;
   justify-content: center;
+  align-items: center;
 }
 .carousel li{
   justify-content: center;
   margin: 0px 15px;
+  height: 125px;
   position: relative;
   display: flex;
   flex-direction: column; 
@@ -56,13 +65,52 @@
   font-weight: normal;
 }
 
-@keyframes slide{
-
-}
 
 @media  (max-width: 999px) {
+  .Tec{
+    display: flex;
+    flex-direction: column;
+    background-color:#252525;
+    width: 100vw;
+    height: 700px;
+    gap: 25px;
+  }
   
+  .carousel{
+    width: 70vw;
+    height: 550px;
+    margin: auto;
+    justify-content: center;
+    
+    
+  }
+  .carousel p{
+    font-size: 14px;
+    font-weight: normal;
+  }
 
 
-
+}
+@media  (max-width: 499px){
+  .Tec{
+    display: flex;
+    flex-direction: column;
+    background-color:#252525;
+    width: 100vw;
+    height: 950px;
+    gap: 25px;
+  }
+  
+  .carousel{
+    width: 75vw;
+    height: 800px;
+    margin: auto;
+    justify-content: center;
+    
+    
+  }
+  .carousel p{
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
