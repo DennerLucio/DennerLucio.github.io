@@ -93,7 +93,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 75px;
+  height: 100px;
 }
 #TopicoContato{
 font-size: 40px;
@@ -152,8 +152,25 @@ p{
  font-weight: bold;
 }
 
+@media  (max-width: 1250px)
 
-@media  (max-width: 999px){
+{
+  .foto_perfil{
+    margin-left: 0px;
+    
+  }
+
+}
+@media  (max-width: 1150px)
+
+{
+  .foto_perfil{
+    margin-left: 0px;
+    
+  }
+
+}
+@media  (max-width: 1150px){
   .Intro{
     display: flex;
     flex-direction: column;

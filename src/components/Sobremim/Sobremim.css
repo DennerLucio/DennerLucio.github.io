@@ -4,13 +4,24 @@
     background-color: #252525;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
 }
-.sobre_mim{
-    width: 100vw;
-    height: 100%;
+.container_sobre{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
+}
+.sobre_mim{
+    width: 350px;
+    height: 350px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+   
    
 }
 .txt{
@@ -19,22 +30,48 @@
     height: 250px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin-right: 100px;
+   
+}
+.txt p{
+    text-align: center;
+
 }
 .txt p:last-child{
     font-weight: normal;
     text-align: normal;
     
 }
-#boas_vindas{
+.study{
     color: #288ff7;
     text-decoration: solid;
     font-weight: bolder;
     margin-bottom: 5px;
 }
-.mar:last-child{
-    margin: 3px 0px 3px 0px;
-}
 
+@media (max-width: 450px){
+    .txt p{
+        display: flex;
+        font-size: 15px;
+    }
+    .txt{
+        color: white;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .sobre_mim{
+        width: 300px;
+        height: 300px;
+        display: flex;
+       
+        justify-content: center;
+       
+       
+    }
+}

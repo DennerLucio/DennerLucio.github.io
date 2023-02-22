@@ -15,17 +15,12 @@ const Footer = () => {
         </div>
         <div className="container_lista">
           <ul>
-            <li>dasdasd</li>
-            <li> dasdasd</li>
-            <li> dasdasd</li>
-            <li> dsadadsd</li>
+            <li>Obrigado por visitar, este projeto foi construido com muito carinho ❤ e React 😁.</li>            
           </ul>
         </div>
         <div className="container_lista">
           <ul>
-            <li>dasdasdasddad</li>
-            <li> dsadasda</li>
-            <li>dasdasdad</li>
+            <li>© 2023 Todos os direitos reservados </li>
             
           </ul>
         </div>
