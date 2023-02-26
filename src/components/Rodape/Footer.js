@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="rodape">
+    <div className="rodape" id="c_ancora">
       <div className="footer">
         <div className="container_lista">
           <ul id="first_ul">

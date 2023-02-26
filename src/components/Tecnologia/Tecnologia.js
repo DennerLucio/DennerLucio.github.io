@@ -3,8 +3,8 @@ import "./Tecnologia.css";
 
 const Tecnologia = () => {
   return (
-    <div className="Tec">
-      <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t">Tecnologias</a></h1></div>
+    <div className="Tec" id="t_ancora">
+      <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t_ancora">Tecnologias</a></h1></div>
       <div  className="carousel" >
         <ul id="t">
             <li> <img className="icone" src="/icons/html5_icon.png" alt="icone_HTML5" /><p>HTML5</p> </li>

@@ -11,8 +11,8 @@ const Portifolio = () => {
     ]
 
     return (
-        <div className="portifolio">
-        <div id="tituloTec"><h1 id="TopicoContato"><a className="GradienteSubli" href="#t">Portifólio</a></h1></div>
+        <div className="portifolio" id="p_ancora">
+        <div id="titulo_portifolio"><h1 id="topico_portifolio"><a className="GradienteSubli" href="#p_ancora">Portifólio</a></h1></div>
          <Carousel breakPoints={breakPoints} className="gallery_carousel">
          <Card num="<In Development/>"/>
          <Card num="<In Development/>"/>

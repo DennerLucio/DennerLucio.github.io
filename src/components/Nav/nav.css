@@ -13,6 +13,10 @@
     border-width: 7px;
     
 }
+li a{
+    color: white;
+}
+
 .containerList{
     list-style: none;
     display: flex;
@@ -43,7 +47,7 @@
     font-size: 26px;
     
 }
-.containerList li{
+.containerList li a{
     color: rgb(255, 255, 255);
     cursor: pointer;
     letter-spacing: 2px;
@@ -62,7 +66,7 @@
   border-top: 12px solid #58585886;
   
 }
-.containerList li:hover{
+.containerList li a:hover{
     transition: 0.5s ease-in;
     color: #288ff7;
 

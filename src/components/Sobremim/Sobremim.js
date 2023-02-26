@@ -2,8 +2,8 @@ import "./Sobremim.css";
 
 const Sobremim = () => {
   return (
-    <div className="sobremim">
-      <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli" href="#al">Sobre Mim</a></h1></div>
+    <div className="sobremim" id="s_ancora">
+      <div id="tituloContato"><h1 id="TopicoContato"><a className="GradienteSubli" href="#s_ancora">Sobre Mim</a></h1></div>
       <div className="container_sobre">
       
       

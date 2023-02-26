@@ -22,9 +22,10 @@ export function Nav(){
             <div className='mobile-menu' onClick={handleClick}></div>
             <div>
                 <ul className={toggle ? 'containerList' : 'containerList active'}>
-                <li>Sobre Mim</li>
-                <li>Portifólio</li>
-                <li>Contato</li>
+                <li><a href="#s_ancora">Sobre Mim</a></li>
+                <li><a href="#t_ancora">Tecnologias</a></li>
+                <li><a href="#p_ancora">Portifólio</a></li>
+                <li><a href="#c_ancora">Contato</a></li>
                 </ul>
             </div>
             
