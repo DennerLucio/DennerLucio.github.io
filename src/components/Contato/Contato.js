@@ -17,7 +17,7 @@ const Contato = () => {
           </div>
         </div>
         <div class="text-bottom">
-        <div>Developer Front-End</div>
+        <div>Developer/QA</div>
       </div>
       </div>
       </div>  
