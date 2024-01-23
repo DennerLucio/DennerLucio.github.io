@@ -17,11 +17,15 @@
 }
 .foto_perfil{
   margin-left: 20vmin;
-  width: 35vmin;
-  height: 35vmin;
-  background-color: rgb(255, 255, 8);
   border-radius: 50%;
  
+}
+.foto{
+    
+  width: 35vmin;
+  height: 35vmin;
+  border-radius: 50%;
+
 }
 
 @keyframes showTopText {
@@ -168,6 +172,9 @@ p{
     margin-left: 0px;
     
   }
+  .foto{
+    margin-left: 0px;
+  }
 
 }
 @media  (max-width: 1150px){
@@ -182,6 +189,7 @@ p{
     
     
   }
+  
   .alinha_Intro{
     position: relative;
     width: 100%;
@@ -192,9 +200,15 @@ p{
     margin-left: 0px;
     width: 200px;
     height: 200px;
-    background-color: rgb(255, 255, 8);
+   
     border-radius: 50%;
    
+  }
+  .foto{
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
   }
   #TopicoContato{
     font-size: 34px;
